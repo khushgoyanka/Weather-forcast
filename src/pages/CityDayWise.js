@@ -7,7 +7,7 @@ function CityDayWise() {
   //     month: "long",
   //     day: "numeric",
   //   });
-  //   console.log(now);
+  //   console.log(now );
 
   const [city, setCity] = useState("");
   const [day, setDay] = useState("");

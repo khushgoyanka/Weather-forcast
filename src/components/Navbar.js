@@ -10,12 +10,11 @@ function NewNav() {
       <Navbar bg="primary" expand="lg" variant="dark">
         <Container>
           <Navbar.Brand href="#home">WEATHER FORECAST </Navbar.Brand>
-          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <br />
-              <Nav.Link href="/:city/:day">CityDayWise</Nav.Link>
+              <Nav.Link href="/city/day">CityDayWise</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
